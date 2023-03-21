@@ -56,7 +56,7 @@ function PokemonPage() {
       <br />
       <PokemonForm form={form} setForm={setForm} handleSubmit={handleSubmit} />
       <br />
-      <Search setSearch={setSearch} />
+      <Search setSearch={setSearch} search={ search }/>
       <br />
       <PokemonCollection pokemons={pokemons} search={search} />
     </Container>
